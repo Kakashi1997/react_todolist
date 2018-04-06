@@ -1,0 +1,62 @@
+
+.breadcrumb {
+    margin-bottom: 15px;
+}
+.table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.newtask {
+    width: 100%;
+    float: left;
+}
+.formtask {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.sort {
+    float: left;
+}
+#basic-addon2:hover {
+    cursor: pointer;
+    color: black;
+}
+
+
+@media (max-width: 576px) { 
+    * {
+        font-size: 12px;
+    }
+    body {
+        background-image: url(../img/bgphone.gif);
+        
+    }
+    .search {
+        margin-top: 5px;
+    }
+    .formtask {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+@media (max-width: 768px) { 
+    body {
+        background-image: url(../img/bgphone.gif);
+        
+    }
+    
+}
+
+
+@media (min-width: 992px) { 
+
+}
+
+
+@media (min-width: 1200px) { 
+
+}
